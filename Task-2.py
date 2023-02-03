@@ -32,4 +32,5 @@ class Yandex:
 
 ya = Yandex(TOKEN)
 file_path = input('Введите путь до фаила')
-ya.upload_to_disk(f'{file_path}', yandex_path='/Test/hello_Yandex.txt')
+ya.upload_to_disk(f'{file_path}', yandex_path='')
+
